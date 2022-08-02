@@ -3,7 +3,7 @@ import { therapyList } from './therapyList'
 
 export default function Therapies() {
     return (
-        <div className='container-therapy'>
+        <div className='container-therapy col-lg-4 col-md-6'>
             {
                 therapyList.map((therapyList) => (
                     <div className="card mb-3 text-bg-dark">

@@ -4,7 +4,6 @@ import Therapies from '../Therapies';
 
 
 
-
 function Home() {
     return (
         <>

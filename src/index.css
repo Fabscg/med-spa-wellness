@@ -25,12 +25,13 @@ footer {
   padding-top: 30px;
   font-family: 'Cormorant SC', serif;
   font-size: 80px;
-  color: aqua;
+  color: turquoise;
   text-shadow: 2px 2px black;
+  font-weight: bolder;
 }
 
 span {
-  color: aqua;
+  color: turquoise;
   font-family: 'Cormorant SC', serif;
   text-shadow: 2px 2px black;
   font-size: 40px;
@@ -59,17 +60,24 @@ span {
 }
 
 .cover-title {
+  border-radius: 25px;
   border: solid 3px white;
   position: relative;
   display: block;
   justify-content: center;
   align-items: center;
   padding: 50px;
+  margin: 100px;
 }
 
 
 /* SERVICES */
 
+.container-therapy {
+  margin-top: 100px;
+  background-color: black;
+  display: -webkit-box;
+}
 
 .card-img-overlay {
   position: absolute;
