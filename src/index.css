@@ -1,13 +1,82 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Raleway", sans-serif;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.copyrigths {
+  padding: 20px auto;
+}
+
+footer {
+  text-align: center;
+  background-color: black;
+  padding: 20px auto;
+  color: white;
+}
+
+.d-block {
+  width: 100%;
+  opacity: 0.5;
+  height: auto;
+}
+
+.title {
+  text-align: center;
+  padding-top: 30px;
+  font-family: 'Cormorant SC', serif;
+  font-size: 80px;
+  color: aqua;
+  text-shadow: 2px 2px black;
+}
+
+span {
+  color: aqua;
+  font-family: 'Cormorant SC', serif;
+  text-shadow: 2px 2px black;
+  font-size: 40px;
+  padding: 20px 0 0 20px;
+}
+
+.w3-bar {
+  width: 100%;
+  font-size: 25px;
+}
+
+.w3-bar .w3-bar-item {
+  padding: 8px 16px;
+  float: center;
+  width: auto;
+  border: none;
+  display: flex;
+  outline: 0;
+}
+
+.w3-top,
+.w3-bottom {
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+
+.cover-title {
+  border: solid 3px white;
+  position: relative;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+
+/* SERVICES */
+
+
+.card-img-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: var(--bs-card-img-overlay-padding);
+  border-radius: var(--bs-card-inner-border-radius);
 }
