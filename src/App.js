@@ -12,31 +12,32 @@ import Therapies from "./Components/Therapies";
 
 function App() {
   const [currentPage, setCurrentPage] = useState("Home")
+
   function RenderPage({ currentPage }) {
     if (currentPage === "Home") {
       return <Home />
     }
-    if (currentPage === "About") {
-      return <About />
-    }
+    // if (currentPage === "Us") {
+    //   return <About />
+    // }
     if (currentPage === "Therapies") {
       return <Therapies />
     }
-    if (currentPage === "Book") {
-      return <Book />
-    }
+    // if (currentPage === "Book") {
+    //   return <Book />
+    // }
     return null;
   }
 
   const handlePageChange = (page) => setCurrentPage(page);
   return (
-    <Router>
-      <>
-        <Header currentPage={currentPage} handlePageChange={handlePageChange} />
-        <RenderPage currentPage={currentPage} />
-        <Footer />
-      </>
-    </Router>
+
+    <div>
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      <RenderPage currentPage={currentPage} />
+
+      <Footer />
+    </div>
   );
 }
 

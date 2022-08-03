@@ -11,6 +11,7 @@ function CarouselFadeExample() {
           src={require("../../assets/images/mask-on-face.jpg")}
           alt="First slide"
         />
+
         <Carousel.Caption>
           <div className="cover-title">
             <h3>FACIALS</h3>

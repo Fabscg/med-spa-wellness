@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { therapyList } from './therapyList'
 
+
 export default function Therapies() {
     return (
         <div className='container-therapy col-lg-4 col-md-6'>
