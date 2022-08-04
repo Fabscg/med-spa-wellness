@@ -4,20 +4,35 @@ import { therapyList } from './therapyList'
 
 export default function Therapies() {
     return (
-        <div className='container-therapy col-lg-4 col-md-6'>
-            {
-                therapyList.map((therapyList) => (
-                    <div className="card mb-3 text-bg-dark">
-                        <img src={therapyList.imgURL} className="card-img-top" alt="massage services" />
-                        <div className="card-img-overlay">
-                            <h5 className="card-title">{therapyList.therapyName}</h5>
-                            <p className="card-text">{therapyList.description}</p>
-                            <p className="card-text">60 min - $130</p>
-                        </div>
-                    </div>
-                ))
-            }
 
+        <div className='section-services'>
+            <div className='sevices-title'>
+                <h1>SERVICES</h1>
+            </div>
+            <div className="card-services mb-3">
+                {
+                    therapyList.map((therapyList) => (
+                        <div className="row g-0 card-container">
+
+                            <div className="col-md-4">
+
+
+                                <img src={therapyList.imgURL} className="img-fluid rounded-start" alt="massage services" />
+                            </div>
+                            <div className="col-md-8">
+                                <div className="card-body">
+                                    <h5 className="card-title">{therapyList.therapyName}</h5>
+                                    <p className="card-text">{therapyList.description}</p>
+                                    <p className="card-text"><large className="">{therapyList.price}</large></p>
+                                </div>
+                            </div>
+                        </div>
+                    ))
+                }
+
+            </div>
         </div>
+
+
     )
 }

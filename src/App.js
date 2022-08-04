@@ -17,15 +17,15 @@ function App() {
     if (currentPage === "Home") {
       return <Home />
     }
-    // if (currentPage === "Us") {
-    //   return <About />
-    // }
+    if (currentPage === "Us") {
+      return <About />
+    }
     if (currentPage === "Therapies") {
       return <Therapies />
     }
-    // if (currentPage === "Book") {
-    //   return <Book />
-    // }
+    if (currentPage === "Book") {
+      return <Book />
+    }
     return null;
   }
 

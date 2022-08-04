@@ -4,7 +4,7 @@ import headMassage from "../../assets/images/therapies/head-massage.jpg";
 import oxigenFacial from "../../assets/images/therapies/oxigenFacial.jpg";
 import deepTissue from "../../assets/images/therapies/deep-tissue.jpg";
 import sweedish from "../../assets/images/therapies/sweedish-massage.jpg";
-import relaxMassage from "../../assets/images/therapies/towels-relax.jpg";
+import faceTreatment from "../../assets/images/therapies/face-treatment.jpg";
 
 export const therapyList = [
     {
@@ -44,14 +44,14 @@ export const therapyList = [
     },
     {
         id: 6,
-        imgURL: relaxMassage,
+        imgURL: oxigenFacial,
         therapyName: "Relaxation Massage (RMT)",
         description: "This relaxation massage is smooth, gentle treatment that relieves muscular tension, increases circulation and promotes a general sense relaxation that improve blood circulations, reduce muscle tension due to postural issue, ease muscle pain, all....",
         price: "30 min - $75 | 60 min - $130",
     },
     {
         id: 7,
-        imgURL: oxigenFacial,
+        imgURL: faceTreatment,
         therapyName: "This treatment is designed to nourish your skin and promote collagen growth. It involves a machine that is used for spraying highly concentrated molecules of oxygen right into your epidermis. The oxigen that's applied to your neck and face is in....",
         price: "30 min - $75 | 60 min - $130",
     },

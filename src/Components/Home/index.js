@@ -1,5 +1,6 @@
 import React from 'react'
 import CarouselFadeExample from "../../Components/Carousel"
+import Therapies from '../Therapies';
 
 
 
@@ -9,6 +10,7 @@ function Home() {
         <>
             <div>
                 <CarouselFadeExample />
+                <Therapies />
             </div>
         </>
     )
