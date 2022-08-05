@@ -3,7 +3,7 @@ import hotStone from "../../assets/images/therapies/hot-stone.jpg";
 import headMassage from "../../assets/images/therapies/head-massage.jpg";
 import oxigenFacial from "../../assets/images/therapies/oxigenFacial.jpg";
 import deepTissue from "../../assets/images/therapies/deep-tissue.jpg";
-import sweedish from "../../assets/images/therapies/sweedish-massage.jpg";
+import sweedish from "../../assets/images/therapies/sweedish.jpg";
 import faceTreatment from "../../assets/images/therapies/face-treatment.jpg";
 
 export const therapyList = [

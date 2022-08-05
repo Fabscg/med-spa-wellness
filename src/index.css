@@ -4,15 +4,12 @@ body {
   margin: 0;
 }
 
-footer {
-  text-align: center;
-  background-color: black;
-  padding: 20px auto;
-  color: white;
+.nav-item {
+  padding-right: 20px;
 }
 
-.nav-item {
-  font-weight: bold;
+.nav-link:hover {
+  background-color: rgb(192, 191, 191);
 }
 
 .d-block {
@@ -59,6 +56,10 @@ span {
   font-size: 30px;
 }
 
+.top-icon {
+  padding-left: 8px;
+}
+
 .navbar-nav {
   font-size: x-large;
   text-decoration: none;
@@ -80,21 +81,43 @@ span {
 
 /* SERVICES */
 
+h2 {
+  color: black;
+  font-family: 'Cormorant SC', serif;
+}
+
+.img-fluid {
+  height: -webkit-fill-available;
+}
+
 .section-services {
-  padding: 100px;
-  color: white !important;
+  margin: 100px;
+  padding-top: 50px;
+  color: whitesmoke;
   position: relative;
-  background-image: url("./assets/images/blue-wall.jpg");
-  background: cover;
+  background-image: url("./assets/images/spa-background.jpg");
   background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
   text-align: center;
 }
+
+.services-title {
+  padding-bottom: 100px;
+}
+
+h2 {
+  padding: 50px;
+  font-size: 50px;
+  font-weight: 500px;
+}
+
 
 .card-container {
   padding-bottom: 30px;
   font-size: large;
   text-align: center;
-  
 }
 
 
@@ -103,9 +126,64 @@ span {
   padding: 20px;
   background-color: black;
   align-items: center;
-  height: auto;
+  opacity: 0.7;
 }
 
-.card-services {
-  height: fit-content;
+/* ABOUT ME */
+
+.profile-img {
+  width: 500px;
+  height: 600px;
+  padding:40px;
+  margin:40px;
+  
+}
+
+.us {
+  width: 100%;
+  object-fit: cover;
+  background-image: url("./assets/images/profile/carmen-profile.jpg");
+  background-repeat: no-repeat;
+  background-position: fixed;
+
+
+}
+
+/* FOOTER */
+
+footer {
+  text-align: left;
+  background-color: black;
+  padding: 60px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.fa-facebook {
+  color: blue !important;
+}
+
+.fa-twitter {
+  color: rgb(0, 213, 255) !important;
+}
+
+.fa-envelope {
+  color: rgb(212, 83, 100) !important;
+}
+
+.fa-phone {
+  color: rgb(137, 193, 68) !important;
+}
+
+.icons:hover {
+  opacity: 0.6;
+}
+
+.icons {
+  color: white;
+}
+
+.icons {
+  padding-left: 40px;
 }

@@ -15,23 +15,30 @@ export default function Header({ currentPage, handlePageChange }) {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav">
                             <li className="nav-item">
-                                <a href="#home
-                                " className={currentPage === "Home" ? "nav-link active" : "nav-link"}>Home</a>
+                                <a href="#home" aria-current="page" className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+
+                                    onClick={() => handlePageChange('Home')}>Home<i class="top-icon fa-solid fa-house"></i> </a>
                             </li>
                             <li className="nav-item">
-                                <a href="#us" className={currentPage === "About-us" ? "nav-link" : "nav-link"}>About Us</a>
+                                <a href="#Us" aria-current="page" className={currentPage === 'Us' ? 'nav-link active' : 'nav-link'}
+
+                                    onClick={() => handlePageChange('Us')}>About Us<i class="top-icon fa-solid fa-user"></i> </a>
                             </li>
                             <li className="nav-item">
-                                <a href="#therapies" className={currentPage === "Therapies" ? "nav-link" : "nav-link"}>Therapies</a>
+                                <a href="#therapies" aria-current="page" className={currentPage === 'Therapies' ? 'nav-link active' : 'nav-link'}
+
+                                    onClick={() => handlePageChange('Therapies')}>Therapies<i class="top-icon fa-solid fa-hand-holding-heart"></i> </a>
                             </li>
                             <li className="nav-item">
-                                <a href="#book-appointment" className={currentPage === "Book" ? "nav-link" : "nav-link"}>Book</a>
+                                <a href="#Contact" aria-current="page" className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
+
+                                    onClick={() => handlePageChange('Contact')}>Contact<i class="top-icon fa-solid fa-at"></i> </a>
                             </li>
 
                         </ul>
                     </div>
                 </div>
-                
+
             </nav>
 
         </div>

@@ -6,8 +6,8 @@ export default function Therapies() {
     return (
 
         <div className='section-services'>
-            <div className='sevices-title'>
-                <h1>SERVICES</h1>
+            <div >
+                <h2 className='sevices-title' id="#therapies">SERVICES</h2>
             </div>
             <div className="card-services mb-3">
                 {

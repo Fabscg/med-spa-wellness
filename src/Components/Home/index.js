@@ -10,7 +10,6 @@ function Home() {
         <>
             <div>
                 <CarouselFadeExample />
-                <Therapies />
             </div>
         </>
     )
