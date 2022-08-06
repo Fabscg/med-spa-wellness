@@ -132,22 +132,34 @@ h2 {
 /* ABOUT ME */
 
 .profile-img {
-  width: 500px;
-  height: 600px;
-  padding:40px;
-  margin:40px;
-  
-}
-
-.us {
-  width: 100%;
-  object-fit: cover;
   background-image: url("./assets/images/profile/carmen-profile.jpg");
+  padding: 100px 50px;
   background-repeat: no-repeat;
-  background-position: fixed;
-
-
+  background-position: initial;
+  background-attachment: fixed;
+  width: 400px;
+  height: 600px;
 }
+
+.biography {
+  align-self: center;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.about-us {
+  background-image: url("./assets/images/profile/feathers.jpg");
+  display: inline-flex;
+  justify-content: center;
+  background-size: cover;
+  background-position: bottom;
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+
+
 
 /* FOOTER */
 
