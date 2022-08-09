@@ -32,7 +32,7 @@ export default function Header({ currentPage, handlePageChange }) {
                             <li className="nav-item">
                                 <a href="#Contact" aria-current="page" className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}
 
-                                    onClick={() => handlePageChange('Contact')}>Contact<i class="top-icon fa-solid fa-at"></i> </a>
+                                    onClick={() => handlePageChange('Contact')}>Contact<i class="top-icon fa-solid fa-envelope-open-text"></i> </a>
                             </li>
 
                         </ul>

@@ -131,14 +131,22 @@ h2 {
 
 /* ABOUT ME */
 
+.about-title {
+  color: white;
+  padding: 50px;
+  font-size: 50px;
+  font-weight: 500px;
+  text-align: center;
+}
+
 .profile-img {
-  background-image: url("./assets/images/profile/carmen-profile.jpg");
+  background-image: url("./assets/images/profile/carmen-img.jpg");
   padding: 100px 50px;
   background-repeat: no-repeat;
   background-position: initial;
   background-attachment: fixed;
   width: 400px;
-  height: 600px;
+  height: 500px;
 }
 
 .biography {
@@ -158,6 +166,54 @@ h2 {
   margin-top: 100px;
   margin-bottom: 0;
 }
+
+/* CONTACT FORM */
+
+.container-contact100 {
+  margin-top: 80px;
+  background-image: url("./assets/images/computer.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 50px;
+}
+
+.contact100-form-title {
+  width: 100%;
+  display: block;
+  font-family: 'Cormorant SC', serif;
+  font-size: 30px;
+  color: #333333;
+  line-height: 1.2;
+  text-align: center;
+  padding-bottom: 48px;
+}
+
+form {
+  text-align: center;
+  padding: 50px;
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 100%;
+}
+
+input,
+.input100 {
+  height: 48px;
+  border-radius: 25px;
+}
+
+.input100 {
+  display: block;
+  width: 100%;
+  font-family: 'Cormorant SC', serif;
+  font-size: 18px;
+  color: #404b46;
+  line-height: 1.2;
+  padding: 0 26px;
+}
+
+
+
 
 
 
@@ -198,4 +254,15 @@ footer {
 
 .icons {
   padding-left: 40px;
+}
+
+@media screen and (max-width:768px) {
+  footer {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .icons {
+    padding-bottom: 20px;
+  }
 }

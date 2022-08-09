@@ -7,7 +7,7 @@ export default function Therapies() {
 
         <div className='section-services'>
             <div >
-                <h2 className='sevices-title' id="#therapies">SERVICES</h2>
+                <h2 className='sevices-title' id="#therapies">THERAPIES</h2>
             </div>
             <div className="card-services mb-3">
                 {
@@ -23,7 +23,7 @@ export default function Therapies() {
                                 <div className="card-body">
                                     <h5 className="card-title">{therapyList.therapyName}</h5>
                                     <p className="card-text">{therapyList.description}</p>
-                                    <p className="card-text"><large className="">{therapyList.price}</large></p>
+                                    <button className="card-text btn btn-dark btn-lg"><large className="">{therapyList.price}</large></button>
                                 </div>
                             </div>
                         </div>

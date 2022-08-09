@@ -2,6 +2,7 @@ import Home from "./Components/Home";
 import Header from "./Components/Header"
 import Footer from "./Components/Footer"
 import Us from "./Components/Us"
+import Contact from "./Components/Contact";
 import './App.css';
 import { BrowserRouter as Router, Routes, Route, Link, BrowserRouter } from "react-router-dom";
 import "./index.css"
@@ -24,9 +25,9 @@ function App() {
     if (currentPage === "Therapies") {
       return <Therapies />
     }
-    // if (currentPage === "Book") {
-    //   return <Book />
-    // }
+    if (currentPage === "Contact") {
+      return <Contact />
+    }
     return null;
   }
 
