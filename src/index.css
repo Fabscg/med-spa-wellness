@@ -87,7 +87,8 @@ h2 {
 }
 
 .img-fluid {
-  height: -webkit-fill-available;
+  height: auto;
+  width:100%;
 }
 
 .section-services {
@@ -198,4 +199,25 @@ footer {
 
 .icons {
   padding-left: 40px;
+}
+
+@media screen and (max-width:768px){
+  footer{
+    display:block;
+  }
+  .icons{
+    padding:10px;
+    margin:0;
+  }
+  .icons:hover{
+    opacity:0.5;
+  }
+}
+
+
+@media screen and (max-width:568px) {
+  .section-services{
+    margin:20px;
+    padding:20px
+  }
 }
