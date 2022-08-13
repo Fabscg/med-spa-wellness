@@ -14,9 +14,9 @@ body {
   padding-right: 20px;
 }
 
-.nav-link:hover {
+/* .nav-link:hover {
   background-color: rgb(192, 191, 191);
-}
+} */
 
 .d-block {
   width: 100%;
@@ -262,27 +262,20 @@ form {
 
 footer {
   text-align: left;
-  background-color: yellowgreen;
-  padding: 60px;
   color: white;
+  padding: 60px;
+  background: rgb(30, 20, 209);
+  background: linear-gradient(90deg, rgba(30, 20, 209, 1) 0%, rgba(102, 32, 220, 1) 56%, rgba(190, 64, 255, 1) 100%, rgba(167, 39, 227, 1) 100%);
   display: flex;
   justify-content: space-around;
 }
 
-.fa-facebook {
-  color: blue !important;
-}
-
-.fa-twitter {
-  color: rgb(0, 213, 255) !important;
-}
-
-.fa-envelope {
-  color: rgb(212, 83, 100) !important;
-}
-
-.fa-phone {
-  color: black;
+.icons {
+  color: white;
+  padding: 10px;
+  background-color: blue;
+  border-radius: 50px;
+  gap:20px;
 }
 
 .icons:hover {
@@ -290,9 +283,7 @@ footer {
 }
 
 
-.icons {
-  padding-left: 40px;
-}
+
 
 @media screen and (max-width:768px) {
 
