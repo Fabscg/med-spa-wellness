@@ -1,3 +1,9 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Raleway", sans-serif;
   padding: 0;
@@ -170,13 +176,15 @@ h2 {
 
 /* CONTACT FORM */
 
+
+
 .container-contact100 {
   margin-top: 80px;
   background-image: url("./assets/images/computer.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 50px;
+  padding: 25px;
 }
 
 .contact100-form-title {
@@ -195,16 +203,17 @@ h2 {
   font-size: 25px;
 }
 
+textarea,
+.input100 {
+  min-height: 100px;
+  padding-top: 14px;
+  padding-bottom: 15px;
+}
+
 form {
   text-align: center;
   padding: 20px;
   background-color: rgba(255, 255, 255, 0.5);
-}
-
-input,
-.input100 {
-  height: 50px;
-  border-radius: 25px;
 }
 
 .input100 {
@@ -217,11 +226,43 @@ input,
   padding: 0 26px;
 }
 
+.wrap-input100 {
+  width: 100%;
+  position: relative;
+  border: 1px solid #e6e6e6;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.validate-input {
+  position: relative;
+}
+
+.label-input100 {
+  background-color: white;
+  width: 100%;
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 11px;
+  color: #666666;
+  line-height: 1.2;
+  text-transform: uppercase;
+  padding: 15px 0 2px 24px;
+}
+
+.select2-container--default.select2-container--open.select2-container--above .select2-selection--single,
+.select2-container--default.select2-container--open.select2-container--above .select2-selection--multiple {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+
 /* FOOTER */
 
 footer {
   text-align: left;
-  background-color: black;
+  background-color: yellowgreen;
   padding: 60px;
   color: white;
   display: flex;
@@ -241,16 +282,13 @@ footer {
 }
 
 .fa-phone {
-  color: rgb(137, 193, 68) !important;
+  color: black;
 }
 
 .icons:hover {
   opacity: 0.6;
 }
 
-.icons {
-  color: white;
-}
 
 .icons {
   padding-left: 40px;

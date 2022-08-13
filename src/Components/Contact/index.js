@@ -37,7 +37,7 @@ export default function Contact() {
             <span className="focus-input100"></span>
           </div>
           <div className="container-contact100-form-btn">
-            <button className="contact100-form-btn btn btn-outline-secondary btn-lg">
+            <button className="contact100-form-btn btn btn-outline-primary btn-lg">
               Send
             </button>
           </div>
