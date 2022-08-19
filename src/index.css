@@ -4,6 +4,7 @@ body {
   margin: 0;
 }
 
+
 .nav-item {
   padding-right: 20px;
 }
@@ -198,8 +199,12 @@ h2 {
 
 .contact100-form-title {
   width: 100%;
+<<<<<<< HEAD
   display: block;
   font-family: "Cormorant SC", serif;
+=======
+  font-family: 'Cormorant SC', serif;
+>>>>>>> 748eb319eacf524a728b84d7b334b3a9f245d816
   font-size: 50px;
   color: #333333;
   line-height: 1.2;
@@ -212,9 +217,10 @@ h2 {
   font-size: 25px;
 }
 
+
 form {
   text-align: center;
-  padding: 20px;
+  padding: 20px auto;
   background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -224,7 +230,7 @@ input,
   border-radius: 25px;
 }
 
-.input100 {
+.wrap-input100 {
   display: block;
   width: 100%;
   font-family: "Cormorant SC", serif;
@@ -273,7 +279,34 @@ footer {
   padding-left: 40px;
 }
 
+<<<<<<< HEAD
 @media screen and (max-width: 768px) {
+=======
+@media screen and (max-width:768px) {
+
+  .cover-title {
+    font-size: 20px;
+  }
+
+  .title {
+    font-size: 45px;
+  }
+
+  .carousel-body {
+    padding: 10px;
+  }
+
+  .profile-img {
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    width: -webkit-fill-available;
+    padding: 0;
+    background-size: cover;
+    height: 400px;
+  }
+
+>>>>>>> 748eb319eacf524a728b84d7b334b3a9f245d816
   footer {
     display: flex;
     flex-direction: column-reverse;
@@ -281,10 +314,6 @@ footer {
 
   .icons {
     padding-bottom: 20px;
-  }
-
-  footer {
-    display: block;
   }
 
   .icons {
@@ -295,6 +324,9 @@ footer {
   .icons:hover {
     opacity: 0.5;
   }
+  form{
+    display: table-caption;
+  }
 }
 
 @media screen and (max-width: 568px) {
@@ -302,4 +334,46 @@ footer {
     margin: 20px;
     padding: 20px;
   }
+<<<<<<< HEAD
 }
+=======
+
+  .card-body,
+  .biography,
+  .nav-link {
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .cover-title {
+    padding: 0;
+  }
+
+  .carousel-caption {
+    visibility: collapse;
+  }
+
+  .carousel-body {
+    padding: 0;
+  }
+
+  .cover-title {
+    font-size: medium;
+  }
+
+  footer {
+    padding: 20px;
+    font-size: 14px;
+  }
+
+
+
+}
+>>>>>>> 748eb319eacf524a728b84d7b334b3a9f245d816
