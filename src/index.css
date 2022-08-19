@@ -8,8 +8,27 @@ body {
   padding-right: 20px;
 }
 
+.navbar-togler-icon {
+  background-color: unset;
+}
+.navbar-brand {
+  font-size: 30px;
+  font-family: "Cormorant SC", serif;
+}
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #0d6efd;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+  text-align: center;
+  max-width: fit-content;
+}
+
 .nav-link:hover {
   background-color: rgb(192, 191, 191);
+  background-size: contain;
 }
 
 .d-block {
@@ -21,25 +40,23 @@ body {
 
 .title {
   text-align: center;
-  font-family: 'Cormorant SC', serif;
+  font-family: "Cormorant SC", serif;
   font-size: 70px;
   color: blue;
   text-shadow: 2px 2px black;
   text-decoration: none;
 }
 
-
 h1,
 span {
   color: blue;
-  font-family: 'Cormorant SC', serif;
+  font-family: "Cormorant SC", serif;
   font-weight: bolder;
 }
 
 .main-title {
   font-weight: bold;
   font-size: 50px;
-
 }
 
 .cover-title {
@@ -78,12 +95,11 @@ span {
   padding-bottom: 100px;
 }
 
-
 /* SERVICES */
 
 h2 {
   color: black;
-  font-family: 'Cormorant SC', serif;
+  font-family: "Cormorant SC", serif;
 }
 
 .img-fluid {
@@ -114,14 +130,11 @@ h2 {
   font-weight: 500px;
 }
 
-
 .card-container {
   padding-bottom: 30px;
   font-size: large;
   text-align: center;
 }
-
-
 
 .card-body {
   padding: 20px;
@@ -170,6 +183,10 @@ h2 {
 
 /* CONTACT FORM */
 
+.wrap-input100 {
+  background-color: white;
+}
+
 .container-contact100 {
   margin-top: 80px;
   background-image: url("./assets/images/computer.jpg");
@@ -182,7 +199,7 @@ h2 {
 .contact100-form-title {
   width: 100%;
   display: block;
-  font-family: 'Cormorant SC', serif;
+  font-family: "Cormorant SC", serif;
   font-size: 50px;
   color: #333333;
   line-height: 1.2;
@@ -210,7 +227,7 @@ input,
 .input100 {
   display: block;
   width: 100%;
-  font-family: 'Cormorant SC', serif;
+  font-family: "Cormorant SC", serif;
   font-size: 18px;
   color: #404b46;
   line-height: 1.2;
@@ -256,8 +273,7 @@ footer {
   padding-left: 40px;
 }
 
-@media screen and (max-width:768px) {
-
+@media screen and (max-width: 768px) {
   footer {
     display: flex;
     flex-direction: column-reverse;
@@ -281,10 +297,9 @@ footer {
   }
 }
 
-
-@media screen and (max-width:568px) {
+@media screen and (max-width: 568px) {
   .section-services {
     margin: 20px;
-    padding: 20px
+    padding: 20px;
   }
 }
