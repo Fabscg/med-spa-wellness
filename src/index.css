@@ -199,8 +199,12 @@ h2 {
 
 .contact100-form-title {
   width: 100%;
+<<<<<<< HEAD
   display: block;
   font-family: "Cormorant SC", serif;
+=======
+  font-family: 'Cormorant SC', serif;
+>>>>>>> 748eb319eacf524a728b84d7b334b3a9f245d816
   font-size: 50px;
   color: #333333;
   line-height: 1.2;
@@ -275,7 +279,9 @@ footer {
   padding-left: 40px;
 }
 
-
+<<<<<<< HEAD
+@media screen and (max-width: 768px) {
+=======
 @media screen and (max-width:768px) {
 
   .cover-title {
@@ -300,6 +306,7 @@ footer {
     height: 400px;
   }
 
+>>>>>>> 748eb319eacf524a728b84d7b334b3a9f245d816
   footer {
     display: flex;
     flex-direction: column-reverse;
@@ -327,6 +334,9 @@ footer {
     margin: 20px;
     padding: 20px;
   }
+<<<<<<< HEAD
+}
+=======
 
   .card-body,
   .biography,
@@ -366,4 +376,4 @@ footer {
 
 
 }
-
+>>>>>>> 748eb319eacf524a728b84d7b334b3a9f245d816
