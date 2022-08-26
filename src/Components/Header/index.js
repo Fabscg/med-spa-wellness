@@ -1,3 +1,4 @@
+
 import React from "react";
 
 export default function Header({ currentPage, handlePageChange }) {
@@ -72,6 +73,7 @@ export default function Header({ currentPage, handlePageChange }) {
               </li>
             </ul>
           </div>
+
         </div>
       </nav>
     </div>
