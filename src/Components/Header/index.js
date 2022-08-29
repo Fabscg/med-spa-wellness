@@ -1,14 +1,15 @@
-
 import React from "react";
+import { GrMail } from "react-icons/gr";
 
 export default function Header({ currentPage, handlePageChange }) {
   return (
     <div>
-      <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
+      <nav className="navbar navbar-expand-lg w3-top w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+        <div className="container-fluid">
           <a class="navbar-brand" href="#">
-            MED-SPA-WELLNESS
+            MED-SPA WELLNESS
           </a>
+
           <button
             className="navbar-toggler"
             type="button"
@@ -18,62 +19,59 @@ export default function Header({ currentPage, handlePageChange }) {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span class="navbar-toggler-icon"></span>
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
+          <div className="navbar-collapse" id="navbarNav">
             <ul className="navbar-nav">
               <li className="nav-item">
                 <a
-                  href="#home"
+                  href="#Home"
                   aria-current="page"
                   className={
-                    currentPage === "Home" ? "nav-link active" : "nav-link btn-info"
+                    currentPage === "Home" ? "nav-link active" : "nav-link"
                   }
                   onClick={() => handlePageChange("Home")}
                 >
-                  Home<i class="top-icon fa-solid fa-house"></i>{" "}
+                  Home<i className="top-icon fa-solid fa-house"></i>
                 </a>
               </li>
-              <li className="nav-item ">
+              <li className="nav-item">
                 <a
                   href="#Us"
-                  aria-current="page"
-                  className={
-                    currentPage === "Us" ? "nav-link active" : "nav-link"
-                  }
+                  className={currentPage === "Us" ? "nav-link" : "nav-link"}
                   onClick={() => handlePageChange("Us")}
                 >
-                  About Us<i class="top-icon fa-solid fa-user"></i>{" "}
+                  About Us<i className="top-icon fa-solid fa-user"></i>
                 </a>
               </li>
               <li className="nav-item">
                 <a
                   href="#therapies"
-                  aria-current="page"
                   className={
-                    currentPage === "Therapies" ? "nav-link active" : "nav-link"
+                    currentPage === "Therapies" ? "nav-link" : "nav-link"
                   }
                   onClick={() => handlePageChange("Therapies")}
                 >
                   Therapies
-                  <i class="top-icon fa-solid fa-hand-holding-heart"></i>{" "}
+                  <i className="top-icon fa-solid fa-hand-holding-heart"></i>
                 </a>
               </li>
               <li className="nav-item">
                 <a
-                  href="#Contact"
-                  aria-current="page"
+                  href="#contact"
                   className={
-                    currentPage === "Home" ? "nav-link active" : "nav-link"
+                    currentPage === "Contact" ? "nav-link" : "nav-link"
                   }
                   onClick={() => handlePageChange("Contact")}
                 >
-                  Contact<i class="top-icon fa-solid fa-envelope-open-text"></i>{" "}
+                  Contact
+                  <i className="top-icon">
+                    <GrMail />
+                  </i>
                 </a>
               </li>
             </ul>
           </div>
-
         </div>
       </nav>
     </div>

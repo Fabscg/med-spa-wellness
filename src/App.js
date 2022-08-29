@@ -4,7 +4,7 @@ import Footer from "./Components/Footer"
 import Us from "./Components/Us"
 import Contact from "./Components/Contact";
 import './App.css';
-import { BrowserRouter as Router, Routes, Route, Link, BrowserRouter } from "react-router-dom";
+
 import "./index.css"
 import React, { useState } from "react"
 import Therapies from "./Components/Therapies";

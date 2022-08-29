@@ -1,5 +1,4 @@
 import React from 'react'
-import profilePic from "../../assets/images/profile/carmen-profile.jpg"
 
 export default function Us() {
     return (
