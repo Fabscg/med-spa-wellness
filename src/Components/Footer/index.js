@@ -3,6 +3,7 @@ import React from 'react'
 export default function Footer() {
     return (
         <footer>
+            
             <p className='copyrigths'>©2022 Copyright. Med-Spa All Rights Reserved</p>
             <div className='social-icons'>
 

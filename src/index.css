@@ -8,8 +8,29 @@ body {
   padding-right: 20px;
 }
 
+.navbar-togler-icon {
+  background-color: unset;
+}
+
+.navbar-brand {
+  font-size: 30px;
+  font-family: "Cormorant SC", serif;
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #0d6efd;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out;
+  text-align: center;
+  max-width: fit-content;
+}
+
 .nav-link:hover {
   background-color: rgb(192, 191, 191);
+  background-size: contain;
 }
 
 .d-block {
@@ -21,25 +42,23 @@ body {
 
 .title {
   text-align: center;
-  font-family: 'Cormorant SC', serif;
+  font-family: "Cormorant SC", serif;
   font-size: 70px;
   color: blue;
   text-shadow: 2px 2px black;
   text-decoration: none;
 }
 
-
 h1,
 span {
   color: blue;
-  font-family: 'Cormorant SC', serif;
+  font-family: "Cormorant SC", serif;
   font-weight: bolder;
 }
 
 .main-title {
   font-weight: bold;
   font-size: 50px;
-
 }
 
 .cover-title {
@@ -75,15 +94,14 @@ span {
 /* CAROUSEL */
 
 .carousel-body {
-  padding-bottom: 200px;
+  padding-bottom: 100px;
 }
-
 
 /* SERVICES */
 
 h2 {
   color: black;
-  font-family: 'Cormorant SC', serif;
+  font-family: "Cormorant SC", serif;
 }
 
 .img-fluid {
@@ -114,14 +132,11 @@ h2 {
   font-weight: 500px;
 }
 
-
 .card-container {
   padding-bottom: 30px;
   font-size: large;
   text-align: center;
 }
-
-
 
 .card-body {
   padding: 20px;
@@ -170,6 +185,10 @@ h2 {
 
 /* CONTACT FORM */
 
+.wrap-input100 {
+  background-color: white;
+}
+
 .container-contact100 {
   margin-top: 80px;
   background-image: url("./assets/images/computer.jpg");
@@ -182,7 +201,7 @@ h2 {
 .contact100-form-title {
   width: 100%;
   display: block;
-  font-family: 'Cormorant SC', serif;
+  font-family: "Cormorant SC", serif;
   font-size: 50px;
   color: #333333;
   line-height: 1.2;
@@ -197,7 +216,7 @@ h2 {
 
 form {
   text-align: center;
-  padding: 20px;
+  padding: 20px auto;
   background-color: rgba(255, 255, 255, 0.5);
 }
 
@@ -207,10 +226,10 @@ input,
   border-radius: 25px;
 }
 
-.input100 {
+.wrap-input100 {
   display: block;
   width: 100%;
-  font-family: 'Cormorant SC', serif;
+  font-family: "Cormorant SC", serif;
   font-size: 18px;
   color: #404b46;
   line-height: 1.2;
@@ -256,7 +275,28 @@ footer {
   padding-left: 40px;
 }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width: 768px) {
+  .cover-title {
+    font-size: 20px;
+  }
+
+  .title {
+    font-size: 45px;
+  }
+
+  .carousel-body {
+    padding: 10px;
+  }
+
+  .profile-img {
+    background-repeat: no-repeat;
+    background-position: top;
+    background-attachment: fixed;
+    width: -webkit-fill-available;
+    padding: 0;
+    background-size: cover;
+    height: 400px;
+  }
 
   footer {
     display: flex;
@@ -267,10 +307,6 @@ footer {
     padding-bottom: 20px;
   }
 
-  footer {
-    display: block;
-  }
-
   .icons {
     padding: 10px;
     margin: 0;
@@ -279,12 +315,46 @@ footer {
   .icons:hover {
     opacity: 0.5;
   }
+
+  form {
+    display: table-caption;
+  }
 }
 
-
-@media screen and (max-width:568px) {
+@media screen and (max-width: 568px) {
   .section-services {
     margin: 20px;
-    padding: 20px
+    padding: 20px;
+  }
+
+  .card-body,
+  .biography,
+  .nav-link {
+    font-size: 14px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  .title {
+    font-size: 30px;
+  }
+
+  .carousel-caption {
+    visibility: collapse;
+  }
+
+  .carousel-body {
+    padding: 0;
+  }
+
+  footer {
+    padding: 20px;
+    font-size: 14px;
+  }
+  .cover-title {
+    padding: 0;
+    font-size: medium;
   }
 }
