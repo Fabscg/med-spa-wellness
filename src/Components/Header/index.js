@@ -5,21 +5,15 @@ import { GrMail } from "react-icons/gr"
 export default function Header({ currentPage, handlePageChange }) {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg w3-top w3-bar w3-white w3-center w3-padding w3-opacity-min w3-hover-opacity-off">
+      <nav className="navbar navbar-expand-lg w3-top w3-bar w3-white w3-padding w3-opacity-min w3-hover-opacity-off">
         <div className="container-fluid">
-          <a class="navbar-brand" href="#">
-            MED-SPA WELLNESS
-          </a>
+          <a className="navbar-brand" href="#">MED-SPA WELLNESS</a>
+
+          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="true"
+            aria-label="Toggle navigation" aria-controls="navbarNavDropdown">
             <span className="navbar-toggler-icon"></span>
-          <a class="navbar-brand" href="#">MED-SPA WELLNESS</a>
-
-          <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span className="navbar-toggler-icon"></span>
-
-
           </button>
-          <div className="navbar-collapse" id="navbarNav">
+          <div className="collapse navbar-collapse" id="navbarNavDropdown">
             <ul className="navbar-nav">
               <li className="nav-item">
 
@@ -42,7 +36,6 @@ export default function Header({ currentPage, handlePageChange }) {
 
                   onClick={() => handlePageChange('Contact')}>Contact<i className='top-icon'><GrMail /></i> </a>
               </li>
-
 
             </ul>
           </div>

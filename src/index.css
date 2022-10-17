@@ -8,19 +8,19 @@ body {
   padding-right: 20px;
 }
 
-.navbar-togler-icon {
-  background-color: unset;
-}
-
 .navbar-brand {
   font-size: 30px;
   font-family: "Cormorant SC", serif;
 }
 
-.nav-link {
-  display: block;
+.navabar-expand{
+  justify-content: flex-end;
+}
+
+.nav-link { 
+  display:table-row;
   padding: 0.5rem 1rem;
-  color: #0d6efd;
+  color: black;
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out;
@@ -52,7 +52,7 @@ body {
 h1,
 span {
   color: blue;
-  font-family: "Cormorant SC", serif;
+  font-family: "Raleway", sans-serif;
   font-weight: bolder;
 }
 
@@ -185,8 +185,8 @@ h2 {
 
 /* CONTACT FORM */
 
-.wrap-input100 {
-  background-color: white;
+.wrap-contact100{
+  text-align: -webkit-right;
 }
 
 .container-contact100 {
@@ -201,39 +201,45 @@ h2 {
 .contact100-form-title {
   width: 100%;
   display: block;
-  font-family: "Cormorant SC", serif;
   font-size: 50px;
   color: #333333;
   line-height: 1.2;
-  text-align: center;
   padding-bottom: 48px;
 }
 
 .contact100-form-btn {
   margin-top: 20px;
   font-size: 25px;
+  align-items: center;
+  margin-bottom: 30px;
 }
 
 form {
   text-align: center;
-  padding: 20px auto;
+  padding: 30px auto;
   background-color: rgba(255, 255, 255, 0.5);
+  max-width: min-content;
+}
+
+.contact100-form{
+  display: table-cell;
+  padding:20px;
 }
 
 input,
-.input100 {
+.input100,
+.js-select2 {
   height: 50px;
   border-radius: 25px;
+  padding:10px;
 }
 
 .wrap-input100 {
-  display: block;
-  width: 100%;
-  font-family: "Cormorant SC", serif;
-  font-size: 18px;
+  display: grid;
+  font-size: 20px;
   color: #404b46;
   line-height: 1.2;
-  padding: 0 26px;
+  padding: 10px;
 }
 
 /* FOOTER */

@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <div className="container-contact100">
       <div className="wrap-contact100">
-        <form className="contact100-form validate-form">
+        <form className="contact100-form validate-form row">
           <span className="contact100-form-title">
             Send Us A Message
           </span>
@@ -37,7 +37,7 @@ export default function Contact() {
             <span className="focus-input100"></span>
           </div>
           <div className="container-contact100-form-btn">
-            <button className="contact100-form-btn btn btn-outline-primary btn-lg">
+            <button className="contact100-form-btn btn btn-dark btn-lg">
               Send
             </button>
           </div>
